@@ -22,12 +22,14 @@ export default function Home() {
       <PackagesSection />
       <HotelsAndCruises />
       
-      {/* Why Choose Us & Testimonials Side-by-Side */}
       <section className="py-16 lg:py-24 bg-white border-t border-border-color">
-        <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
+        <div className="container mx-auto px-4">
           <WhyChooseUs />
-          <Testimonials />
         </div>
+      </section>
+      
+      <section className="py-12 bg-white">
+        <Testimonials />
       </section>
 
       <EnquirySection />

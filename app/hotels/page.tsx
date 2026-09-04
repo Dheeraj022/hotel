@@ -2,6 +2,7 @@ import InnerPageHero from "@/components/layout/InnerPageHero";
 import HotelCard from "@/components/hotels/HotelCard";
 import CTASection from "@/components/home/CTASection";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
+import Testimonials from "@/components/home/Testimonials";
 import { getHotels } from "@/lib/data/hotels";
 import { Metadata } from "next";
 
@@ -32,6 +33,7 @@ export default function HotelsListingPage() {
       </div>
 
       <div className="bg-white">
+        <Testimonials />
         <WhyChooseUs />
       </div>
       

@@ -5,11 +5,11 @@ import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="bg-primary-dark text-white pt-16">
-      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+      <div className="container mx-auto px-4 grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 lg:gap-8 mb-12">
         {/* Column 1 */}
-        <div>
+        <div className="col-span-2 lg:col-span-1">
           <h3 className="text-2xl font-bold mb-4">BRIGHTSPARK</h3>
-          <p className="text-gray-300 mb-6 text-sm leading-relaxed">
+          <p className="text-gray-300 mb-6 text-sm leading-relaxed max-w-sm">
             Your trusted travel partner for holidays, flights, hotels, tours and more.
           </p>
           <div className="flex gap-4">
@@ -21,7 +21,7 @@ export default function Footer() {
         </div>
 
         {/* Column 2 */}
-        <div>
+        <div className="col-span-1">
           <h4 className="font-semibold text-lg mb-4">Quick Links</h4>
           <ul className="space-y-3 text-sm text-gray-300">
             <li><Link href="/" className="hover:text-accent transition-colors">Home</Link></li>
@@ -35,7 +35,7 @@ export default function Footer() {
         </div>
 
         {/* Column 3 */}
-        <div>
+        <div className="col-span-1">
           <h4 className="font-semibold text-lg mb-4">Top Destinations</h4>
           <ul className="space-y-3 text-sm text-gray-300">
             <li><Link href="/destinations/goa" className="hover:text-accent transition-colors">Goa</Link></li>
@@ -49,7 +49,7 @@ export default function Footer() {
         </div>
 
         {/* Column 4 */}
-        <div>
+        <div className="col-span-2 lg:col-span-1 mt-2 lg:mt-0">
           <h4 className="font-semibold text-lg mb-4">Contact Us</h4>
           <address className="not-italic text-sm text-gray-300 space-y-4">
             <p>

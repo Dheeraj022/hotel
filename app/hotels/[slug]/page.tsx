@@ -12,6 +12,7 @@ import HotelReviews from "@/components/hotels/HotelReviews";
 import HotelLocation from "@/components/hotels/HotelLocation";
 import HotelFAQs from "@/components/hotels/HotelFAQs";
 import SimilarHotels from "@/components/hotels/SimilarHotels";
+import Testimonials from "@/components/home/Testimonials";
 import { Metadata } from "next";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -62,6 +63,10 @@ export default async function HotelPage({ params }: { params: Promise<{ slug: st
 
         </div>
         <SimilarHotels currentSlug={hotel.slug} />
+      </div>
+
+      <div className="bg-white py-12">
+        <Testimonials />
       </div>
     </main>
   );

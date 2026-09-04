@@ -1,5 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
-
+import Link from "next/link";
 export default function AboutSection() {
   return (
     <section className="py-16 lg:py-24 bg-white">
@@ -13,9 +13,9 @@ export default function AboutSection() {
           <p className="text-text-secondary leading-relaxed mb-8">
             Brightspark Leisure Services Private Limited is a registered travel agency and tour operator based in New Delhi. We provide customized holiday packages, flight bookings, hotel reservations, visa assistance, travel insurance and corporate travel solutions with unmatched service and best value.
           </p>
-          <button className="border-2 border-primary text-primary px-6 py-2.5 rounded-md font-semibold hover:bg-primary hover:text-white transition-colors">
+          <Link href="/about" className="inline-block border-2 border-primary text-primary px-6 py-2.5 rounded-md font-semibold hover:bg-primary hover:text-white transition-colors">
             KNOW MORE ABOUT US
-          </button>
+          </Link>
         </div>
 
         {/* Right - Company Info Card */}

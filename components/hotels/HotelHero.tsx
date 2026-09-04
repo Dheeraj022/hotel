@@ -68,9 +68,6 @@ export default function HotelHero({ hotel }: { hotel: Hotel }) {
               )}
             </div>
           ))}
-          <button className="absolute bottom-24 right-4 bg-white/20 hover:bg-white/30 backdrop-blur-md text-white border border-white/40 px-4 py-2 rounded-full text-sm font-semibold flex items-center gap-2 transition-colors">
-            <PlayCircle className="w-4 h-4" /> Watch Hotel Video
-          </button>
         </div>
       </div>
     </div>

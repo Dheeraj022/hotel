@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function Partners() {
   const originalPartners = [
-    { name: "IndiGo", src: "/partners/indigo.svg" },
-    { name: "Air India", src: "/partners/airindia.svg" },
-    { name: "Vistara", src: "/partners/vistara.svg" },
+    { name: "IndiGo", src: "/partners/indigo.png" },
+    { name: "Air India", src: "/partners/airindia.png" },
+    { name: "Vistara", src: "/partners/vistara.png" },
     { name: "Emirates", src: "/partners/emirates.svg" },
-    { name: "MakeMyTrip", src: "/partners/makemytrip.svg" },
-    { name: "Yatra", src: "/partners/yatra.svg" },
-    { name: "Goibibo", src: "/partners/goibibo.svg" },
+    { name: "MakeMyTrip", src: "/partners/makemytrip.png" },
+    { name: "Yatra", src: "/partners/yatra.png" },
+    { name: "Goibibo", src: "/partners/goibibo.png" },
   ];
 
   // Duplicate the logos to create a seamless infinite loop

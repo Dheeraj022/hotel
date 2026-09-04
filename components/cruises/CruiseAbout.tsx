@@ -43,10 +43,7 @@ export default function CruiseAbout({ cruise }: { cruise: Cruise }) {
             {cruise.description}
           </p>
         </div>
-        {/* Placeholder for cruise line logo */}
-        <div className="hidden md:flex items-center justify-center w-40 h-16 bg-gray-50 border border-gray-100 rounded-md">
-          <span className="text-sm font-bold text-gray-400">Cruise Line Logo</span>
-        </div>
+
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">

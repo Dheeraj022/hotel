@@ -38,12 +38,6 @@ export default function ServicesSection() {
             </Link>
           ))}
         </div>
-        
-        <div className="mt-12 text-center">
-          <Link href="/services" className="bg-primary text-white px-8 py-3 rounded-md font-semibold hover:bg-primary-light transition-colors inline-block">
-            VIEW ALL SERVICES
-          </Link>
-        </div>
       </div>
     </section>
   );
