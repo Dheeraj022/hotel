@@ -64,7 +64,7 @@ const standardAmenities = [
 ];
 
 const standardRooms = [
-  { name: "Standard Room", description: "Basic accommodation with essential facilities.", image: "/hotels-cruises/raddison.jpg", features: ["Queen Bed", "City View", "Up to 2 Guests"] },
+  { name: "Standard Room", description: "Basic accommodation with essential facilities.", image: "/hotels-cruises/standard-room.jpg", features: ["Queen Bed", "City View", "Up to 2 Guests"] },
   { name: "Superior Room", description: "More space and better furnishings than Standard.", image: "/hotels-cruises/taj.jpg", features: ["King Bed", "Garden View", "Up to 2 Guests"] },
   { name: "Deluxe Room", description: "Larger, more comfortable, with upgraded amenities.", image: "/hotels-cruises/leela.jpg", features: ["King Bed", "Pool View", "Up to 3 Guests"] },
   { name: "Suite", description: "Separate bedroom and living area; premium category.", image: "/hotels-cruises/stregis.jpg", features: ["King Bed", "Ocean View", "Up to 4 Guests"] }
