@@ -6,7 +6,7 @@ import { getDestinations } from "@/lib/data/destinations";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Popular Destinations | Brightspark Leisure Services",
+  title: "Popular Destinations | Guest Assist",
   description: "Explore our wide range of domestic and international destinations.",
 };
 

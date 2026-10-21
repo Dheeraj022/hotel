@@ -154,7 +154,7 @@ export default function HotelTrustBadges() {
 
   return (
     <div className="mt-8">
-      <h3 className="text-lg font-bold text-primary mb-4">Why Book Through Brightspark?</h3>
+      <h3 className="text-lg font-bold text-primary mb-4">Why Book Through Guest Assist?</h3>
       <div className="space-y-4">
         {badges.map((b, i) => {
           const Icon = b.icon;
@@ -231,7 +231,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!hotel) return {};
 
   return {
-    title: \`\${hotel.name} | Brightspark\`,
+    title: \`\${hotel.name} | Guest Assist\`,
   };
 }
 

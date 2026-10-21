@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Refund Policy | Brightspark",
+  title: "Refund Policy | Guest Assist",
 };
 
 export default function RefundPolicyPage() {
@@ -22,7 +22,7 @@ export default function RefundPolicyPage() {
 
             <h2 className="text-xl font-bold text-primary mt-8 mb-4">2. Processing Time</h2>
             <p>
-              Once a cancellation is confirmed and a refund is approved by the service provider (airline, hotel, etc.), Brightspark Leisure Services Pvt Ltd will initiate the refund process. Please allow 7 to 14 business days for the refund amount to reflect in your original mode of payment.
+              Once a cancellation is confirmed and a refund is approved by the service provider (airline, hotel, etc.), Guest Assist Leisure Services Pvt Ltd will initiate the refund process. Please allow 7 to 14 business days for the refund amount to reflect in your original mode of payment.
             </p>
             <p>
               In cases involving international airlines or global hotel chains, the refund process may take longer (up to 30-45 days) depending on their internal processing timelines.
@@ -35,7 +35,7 @@ export default function RefundPolicyPage() {
 
             <h2 className="text-xl font-bold text-primary mt-8 mb-4">4. Deductions</h2>
             <p>
-              The final refund amount will be calculated after deducting the applicable cancellation penalties levied by the service provider and the processing/service fee charged by Brightspark Leisure Services Pvt Ltd. Convenience fees paid during the booking process are non-refundable under all circumstances.
+              The final refund amount will be calculated after deducting the applicable cancellation penalties levied by the service provider and the processing/service fee charged by Guest Assist Leisure Services Pvt Ltd. Convenience fees paid during the booking process are non-refundable under all circumstances.
             </p>
 
             <p className="mt-12 text-sm text-gray-500 border-t pt-6">

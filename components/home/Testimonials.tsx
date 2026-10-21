@@ -5,7 +5,7 @@ export default function Testimonials() {
     { text: "Excellent service and support throughout our trip. Highly recommended!", author: "Amit Sharma", rating: 5 },
     { text: "Very professional and well organized travel experience. Will book again!", author: "Priya Mehta", rating: 5 },
     { text: "Best travel agency for customized packages and visa assistance.", author: "Rahul Verma", rating: 5 },
-    { text: "Our Maldives honeymoon was magical, all thanks to Brightspark!", author: "Sneha Desai", rating: 5 },
+    { text: "Our Maldives honeymoon was magical, all thanks to Guest Assist!", author: "Sneha Desai", rating: 5 },
     { text: "The cruise booking was seamless, and the onboard experience was spectacular.", author: "Vikram Singh", rating: 5 },
     { text: "Great deals on luxury hotels. The team really understood our requirements.", author: "Ananya Gupta", rating: 4 },
     { text: "Visa processing was quick and hassle-free. Amazing customer service.", author: "Rohit Khanna", rating: 5 },

@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Brightspark Leisure Services | Travel More, Worry Less",
-  description: "Plan unforgettable holidays, flights, hotels, cruises, visa assistance and customized travel experiences with Brightspark Leisure Services.",
+  title: "Guest Assist | Travel More, Worry Less",
+  description: "Plan unforgettable holidays, flights, hotels, cruises, visa assistance and customized travel experiences with Guest Assist.",
 };
 
 export default function RootLayout({

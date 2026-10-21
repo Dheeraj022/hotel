@@ -193,7 +193,7 @@ const mockCruises: Cruise[] = [
       { question: "What happens after I submit the enquiry form?", answer: "One of our cruise specialists will contact you within 24 hours to discuss your requirements and provide a customized quote." }
     ],
     reviews: [
-      { author: "Rohan & Family", rating: 5, text: "Amazing experience! Everything was well-organized and the cruise was fantastic. Thank you Brightspark for the great support." },
+      { author: "Rohan & Family", rating: 5, text: "Amazing experience! Everything was well-organized and the cruise was fantastic. Thank you Guest Assist for the great support." },
       { author: "Priya S.", rating: 4.5, text: "The booking process was seamless. The Spectrum of the Seas is a beautiful ship." }
     ]
   },

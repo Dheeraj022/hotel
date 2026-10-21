@@ -503,7 +503,7 @@ import { getDestinations } from "@/lib/data/destinations";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Popular Destinations | Brightspark Leisure Services",
+  title: "Popular Destinations | Guest Assist",
   description: "Explore our wide range of domestic and international destinations.",
 };
 
@@ -550,7 +550,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!dest) return {};
 
   return {
-    title: \`\${dest.name} Holiday Packages & Travel Guide | Brightspark\`,
+    title: \`\${dest.name} Holiday Packages & Travel Guide | Guest Assist\`,
     description: dest.shortDescription,
   };
 }

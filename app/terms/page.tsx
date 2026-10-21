@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Terms & Conditions | Brightspark",
+  title: "Terms & Conditions | Guest Assist",
 };
 
 export default function TermsPage() {
@@ -17,12 +17,12 @@ export default function TermsPage() {
             
             <h2 className="text-xl font-bold text-primary mt-8 mb-4">1. Acceptance of Terms</h2>
             <p>
-              By accessing the website at Brightspark Leisure Services, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site.
+              By accessing the website at Guest Assist, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site.
             </p>
 
             <h2 className="text-xl font-bold text-primary mt-8 mb-4">2. Use License</h2>
             <p>
-              Permission is granted to temporarily download one copy of the materials (information or software) on Brightspark Leisure Services' website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title.
+              Permission is granted to temporarily download one copy of the materials (information or software) on Guest Assist's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title.
             </p>
             <p>
               Under this license you may not: modify or copy the materials; use the materials for any commercial purpose, or for any public display (commercial or non-commercial); attempt to decompile or reverse engineer any software contained on the website; remove any copyright or other proprietary notations from the materials.
@@ -33,12 +33,12 @@ export default function TermsPage() {
               All bookings are subject to availability. By making a booking, you guarantee that you have the authority to accept and do accept on behalf of your party the terms of these booking conditions. A contract will exist as soon as we issue our confirmation invoice.
             </p>
             <p>
-              Prices are subject to change until full payment is received. Brightspark Leisure Services Pvt Ltd acts as an agent on behalf of the service providers (airlines, hotels, etc.) and is not responsible for any changes or cancellations made by the service provider.
+              Prices are subject to change until full payment is received. Guest Assist Leisure Services Pvt Ltd acts as an agent on behalf of the service providers (airlines, hotels, etc.) and is not responsible for any changes or cancellations made by the service provider.
             </p>
 
             <h2 className="text-xl font-bold text-primary mt-8 mb-4">4. Travel Documents</h2>
             <p>
-              It is the passenger's responsibility to ensure that all travel documents, including passports and visas, are valid and in order prior to travel. Brightspark Leisure Services Pvt Ltd is not liable for any issues arising from incorrect or invalid documentation.
+              It is the passenger's responsibility to ensure that all travel documents, including passports and visas, are valid and in order prior to travel. Guest Assist Leisure Services Pvt Ltd is not liable for any issues arising from incorrect or invalid documentation.
             </p>
 
             <p className="mt-12 text-sm text-gray-500 border-t pt-6">

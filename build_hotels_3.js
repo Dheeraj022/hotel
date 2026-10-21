@@ -176,8 +176,8 @@ import { getHotels } from "@/lib/data/hotels";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hotels & Resorts | Brightspark Leisure Services",
-  description: "Book the best stays globally with Brightspark.",
+  title: "Hotels & Resorts | Guest Assist",
+  description: "Book the best stays globally with Guest Assist.",
 };
 
 export default function HotelsListingPage() {

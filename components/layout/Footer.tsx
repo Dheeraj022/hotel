@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 grid grid-cols-2 lg:grid-cols-4 gap-x-4 gap-y-10 lg:gap-8 mb-12">
         {/* Column 1 */}
         <div className="col-span-2 lg:col-span-1">
-          <h3 className="text-2xl font-bold mb-4">BRIGHTSPARK</h3>
+          <h3 className="text-2xl font-bold mb-4">GUEST ASSIST</h3>
           <p className="text-gray-300 mb-6 text-sm leading-relaxed max-w-sm">
             Your trusted travel partner for holidays, flights, hotels, tours and more.
           </p>
@@ -58,7 +58,7 @@ export default function Footer() {
               New Delhi, 110030
             </p>
             <p>Phone: <Link href="tel:+919876543210" className="hover:text-accent transition-colors">+91 98765 43210</Link></p>
-            <p>Email: <Link href="mailto:info@brightsparkleisure.com" className="hover:text-accent transition-colors">info@brightsparkleisure.com</Link></p>
+            <p>Email: <Link href="mailto:info@guestassists.com" className="hover:text-accent transition-colors">info@guestassists.com</Link></p>
             <p>Hours: Mon - Sun: 9:00 AM - 8:00 PM</p>
           </address>
         </div>
@@ -68,7 +68,7 @@ export default function Footer() {
       <div className="bg-primary text-xs border-t border-primary-light">
         <div className="container mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-gray-300">
-            &copy; {new Date().getFullYear()} Brightspark Leisure Services Pvt Ltd. All rights reserved.<br/>
+            &copy; {new Date().getFullYear()} Brightspark Leisure Services Pvt Ltd. All rights reserved.<br />
             GSTIN: 07AAGCB1234L1ZE
           </div>
           <div className="flex flex-wrap gap-4 text-gray-400">

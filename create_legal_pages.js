@@ -5,12 +5,12 @@ const pages = [
   {
     dir: 'app/disclaimer',
     title: 'Disclaimer',
-    content: 'The information contained on this website is for general information purposes only. Brightspark Leisure Services Pvt Ltd assumes no responsibility for errors or omissions in the contents.'
+    content: 'The information contained on this website is for general information purposes only. Guest Assist Leisure Services Pvt Ltd assumes no responsibility for errors or omissions in the contents.'
   },
   {
     dir: 'app/privacy-policy',
     title: 'Privacy Policy',
-    content: "Your privacy is important to us. It is Brightspark Leisure Services Pvt Ltd's policy to respect your privacy regarding any information we may collect from you across our website."
+    content: "Your privacy is important to us. It is Guest Assist Leisure Services Pvt Ltd's policy to respect your privacy regarding any information we may collect from you across our website."
   },
   {
     dir: 'app/terms',
@@ -38,7 +38,7 @@ pages.forEach(page => {
   const code = \`import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "\${page.title} | Brightspark",
+  title: "\${page.title} | Guest Assist",
 };
 
 export default function \${page.title.replace(/[^a-zA-Z]/g, '')}Page() {

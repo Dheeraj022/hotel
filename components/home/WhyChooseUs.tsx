@@ -16,7 +16,7 @@ export default function WhyChooseUs() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-black text-primary tracking-tight inline-flex items-center gap-4">
             <span className="h-1 w-12 bg-accent rounded-full hidden sm:block"></span>
-            WHY CHOOSE BRIGHTSPARK?
+            WHY CHOOSE GUEST ASSIST?
             <span className="h-1 w-12 bg-accent rounded-full hidden sm:block"></span>
           </h2>
           <p className="mt-4 text-text-secondary max-w-2xl mx-auto font-medium">

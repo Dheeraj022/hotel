@@ -1,8 +1,8 @@
-# Brightspark Leisure Services --- Next.js + Supabase Website Specification
+# Guest Assist --- Next.js + Supabase Website Specification
 
 ## 1. Project Overview
 
-Build a modern, responsive travel-agency website for **Brightspark
+Build a modern, responsive travel-agency website for **Guest Assist
 Leisure Services Private Limited** based closely on the supplied
 reference design.
 
@@ -92,7 +92,7 @@ The homepage should follow this order:
 8.  Holiday Packages
 9.  Hotels & Resorts
 10. Cruise Experiences
-11. Why Choose Brightspark
+11. Why Choose Guest Assist
 12. Client Testimonials
 13. Travel enquiry form
 14. Trusted Partners
@@ -142,7 +142,7 @@ Example:
 
 Display:
 
-**BRIGHTSPARK**\
+**GUEST ASSIST**\
 LEISURE SERVICES PRIVATE LIMITED\
 Your Trusted Travel Partner
 
@@ -286,11 +286,11 @@ Eyebrow:
 
 Heading:
 
-**ABOUT BRIGHTSPARK LEISURE SERVICES**
+**ABOUT GUEST ASSIST**
 
 Copy:
 
-Brightspark Leisure Services Private Limited is a registered travel
+Guest Assist Leisure Services Private Limited is a registered travel
 agency and tour operator based in New Delhi. Provide customized holiday
 packages, flight bookings, hotel reservations, visa assistance, travel
 insurance and corporate travel solutions with enhanced service and
@@ -491,7 +491,7 @@ CTA:
 
 ------------------------------------------------------------------------
 
-# 14. Why Choose Brightspark
+# 14. Why Choose Guest Assist
 
 Create six benefit items:
 
@@ -777,7 +777,7 @@ Dark navy footer divided into four columns.
 
 ## Column 1 --- Brand
 
-Brightspark logo and:
+Guest Assist logo and:
 
 **Your trusted travel partner for holidays, flights, hotels, tours and
 more.**
@@ -825,7 +825,7 @@ Phone:
 
 Email:
 
-info@brightsparkleisure.com
+info@guestassist.com
 
 Hours:
 
@@ -1121,11 +1121,11 @@ Every major route should have proper metadata.
 Homepage:
 
 **Title:**\
-Brightspark Leisure Services \| Travel More, Worry Less
+Guest Assist \| Travel More, Worry Less
 
 **Description:**\
 Plan unforgettable holidays, flights, hotels, cruises, visa assistance
-and customized travel experiences with Brightspark Leisure Services.
+and customized travel experiences with Guest Assist.
 
 Implement:
 

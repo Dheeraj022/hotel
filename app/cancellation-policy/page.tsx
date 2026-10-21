@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cancellation Policy | Brightspark",
+  title: "Cancellation Policy | Guest Assist",
 };
 
 export default function CancellationPolicyPage() {
@@ -20,7 +20,7 @@ export default function CancellationPolicyPage() {
               Any cancellation requests must be submitted in writing via email to our support team. Verbal cancellations over the phone will not be considered valid until confirmed in writing.
             </p>
             <p>
-              The cancellation fee structure depends on the type of booking, the lead time before travel, and the specific terms set by the airline, hotel, or cruise operator. Brightspark Leisure Services Pvt Ltd will charge a standard service fee for processing cancellations in addition to any penalties levied by the operators.
+              The cancellation fee structure depends on the type of booking, the lead time before travel, and the specific terms set by the airline, hotel, or cruise operator. Guest Assist Leisure Services Pvt Ltd will charge a standard service fee for processing cancellations in addition to any penalties levied by the operators.
             </p>
 
             <h2 className="text-xl font-bold text-primary mt-8 mb-4">2. Flight Cancellations</h2>

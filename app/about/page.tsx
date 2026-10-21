@@ -11,7 +11,7 @@ export default function Page() {
     <main>
       <InnerPageHero 
         title="About Us" 
-        description="Learn more about Brightspark Leisure Services and our mission to provide you with unforgettable travel experiences." 
+        description="Learn more about Guest Assist and our mission to provide you with unforgettable travel experiences." 
         breadcrumb="About" 
       />
       
@@ -26,7 +26,7 @@ export default function Page() {
             </h2>
             <div className="space-y-4 text-text-secondary leading-relaxed">
               <p>
-                Brightspark Leisure Services Private Limited is a premier registered travel agency and tour operator based in New Delhi. Established with a vision to redefine travel, we specialize in curating seamless and unforgettable experiences for our clients.
+                Guest Assist Leisure Services Private Limited is a premier registered travel agency and tour operator based in New Delhi. Established with a vision to redefine travel, we specialize in curating seamless and unforgettable experiences for our clients.
               </p>
               <p>
                 From customized holiday packages and flight bookings to luxury hotel reservations and corporate travel solutions, we are committed to delivering unmatched service and exceptional value. Whether you are planning a romantic honeymoon, a family vacation, or a complex corporate retreat, our dedicated team of travel experts is here to assist you every step of the way.

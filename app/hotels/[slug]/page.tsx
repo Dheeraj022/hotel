@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!hotel) return {};
 
   return {
-    title: `${hotel.name} | Brightspark`,
+    title: `${hotel.name} | Guest Assist`,
   };
 }
 
