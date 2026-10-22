@@ -14,7 +14,6 @@ export default function CruiseStickyNav() {
     { id: "destinations", label: "Destinations" },
     { id: "inclusions", label: "Inclusions" },
     { id: "important-info", label: "Important Info" },
-    { id: "reviews", label: "Reviews" },
     { id: "faqs", label: "FAQs" },
     { id: "enquiry", label: "Enquiry" },
   ];

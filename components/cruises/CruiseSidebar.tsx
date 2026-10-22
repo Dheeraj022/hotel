@@ -40,21 +40,7 @@ export default function CruiseSidebar({ cruise }: { cruise: Cruise }) {
         </div>
       </div>
 
-      {/* Guest Reviews */}
-      {cruise.reviews && cruise.reviews.length > 0 && (
-        <div id="reviews" className="scroll-mt-[120px] bg-white rounded-lg p-6 border border-gray-100 shadow-sm">
-          <h3 className="text-xl font-bold text-[#031b4e] mb-6">Guest Reviews</h3>
 
-
-          <div className="bg-gray-50 p-4 rounded-lg relative">
-            <div className="text-4xl text-gray-200 absolute top-2 left-2 font-serif">"</div>
-            <p className="text-sm text-gray-600 relative z-10 italic pl-4">
-              "{cruise.reviews[0].text}"
-            </p>
-            <p className="text-xs font-bold text-[#031b4e] mt-4 pl-4">— {cruise.reviews[0].author}</p>
-          </div>
-        </div>
-      )}
 
       {/* FAQs */}
       {cruise.faqs && cruise.faqs.length > 0 && (
