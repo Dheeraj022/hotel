@@ -3,10 +3,10 @@ import { Star, Quote } from "lucide-react";
 export default function Testimonials() {
   const testimonials = [
     { text: "Excellent service and support throughout our trip. Highly recommended!", author: "Amit Sharma", rating: 5 },
-    { text: "Very professional and well organized travel experience. Will book again!", author: "Priya Mehta", rating: 5 },
+    { text: "Very professional and well organized travel experience. Will travel with them again!", author: "Priya Mehta", rating: 5 },
     { text: "Best travel agency for customized packages and visa assistance.", author: "Rahul Verma", rating: 5 },
-    { text: "Our Maldives honeymoon was magical, all thanks to Guest Assist!", author: "Sneha Desai", rating: 5 },
-    { text: "The cruise booking was seamless, and the onboard experience was spectacular.", author: "Vikram Singh", rating: 5 },
+    { text: "Our Maldives honeymoon was magical, all thanks to Guest Assists!", author: "Sneha Desai", rating: 5 },
+    { text: "The cruise assistance was seamless, and the onboard experience was spectacular.", author: "Vikram Singh", rating: 5 },
     { text: "Great deals on luxury hotels. The team really understood our requirements.", author: "Ananya Gupta", rating: 4 },
     { text: "Visa processing was quick and hassle-free. Amazing customer service.", author: "Rohit Khanna", rating: 5 },
     { text: "A flawless family trip to Dubai. We didn't have to worry about a single thing.", author: "The Patel Family", rating: 5 },
@@ -14,7 +14,7 @@ export default function Testimonials() {
     { text: "Highly professional team with deep knowledge of international destinations.", author: "Kunal Joshi", rating: 5 },
     { text: "The European package exceeded our expectations. Excellent guides and stays.", author: "Pooja & Karan", rating: 5 },
     { text: "They secured the best rates for our corporate retreat in Goa.", author: "Rajesh Nair", rating: 4 },
-    { text: "Smooth, effortless booking for our family cruise on Royal Caribbean.", author: "Divya Chawla", rating: 5 },
+    { text: "Smooth, effortless assistance for our family cruise on Royal Caribbean.", author: "Divya Chawla", rating: 5 },
     { text: "Their attention to detail and 24/7 support made our trip stress-free.", author: "Abhishek Jain", rating: 5 },
     { text: "We have found our permanent travel partner. Simply the best in the business!", author: "Sunita Rao", rating: 5 },
     { text: "Customized our entire Bali itinerary flawlessly. Five stars!", author: "Manoj Tiwari", rating: 5 }

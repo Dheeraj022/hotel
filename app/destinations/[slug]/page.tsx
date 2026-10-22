@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!dest) return {};
 
   return {
-    title: `${dest.name} Holiday Packages & Travel Guide | Guest Assist`,
+    title: `${dest.name} Holiday Packages & Travel Guide | Guest Assists`,
     description: dest.shortDescription,
   };
 }

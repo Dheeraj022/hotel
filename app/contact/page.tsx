@@ -82,7 +82,7 @@ export default function Page() {
                   allowFullScreen={false}
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="Guest Assist Office Location"
+                  title="Guest Assists Office Location"
                 ></iframe>
               </div>
 

@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Guest Assist | Travel More, Worry Less",
-  description: "Plan unforgettable holidays, flights, hotels, cruises, visa assistance and customized travel experiences with Guest Assist.",
+  title: "Guest Assists | Travel More, Worry Less",
+  description: "Plan unforgettable holidays, flights, hotels, cruises, visa assistance and customized travel experiences with Guest Assists.",
 };
 
 export default function RootLayout({

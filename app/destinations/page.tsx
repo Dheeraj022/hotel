@@ -6,7 +6,7 @@ import { getDestinations } from "@/lib/data/destinations";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Popular Destinations | Guest Assist",
+  title: "Popular Destinations | Guest Assists",
   description: "Explore our wide range of domestic and international destinations.",
 };
 

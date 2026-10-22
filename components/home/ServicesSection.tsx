@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function ServicesSection() {
   const services = [
     { title: "Holiday Packages", desc: "Domestic & International tour options", icon: Plane, href: "#" },
-    { title: "Flight Booking", desc: "Best deals on domestic & international air tickets", icon: Plane, href: "#" },
-    { title: "Hotel Booking", desc: "Wide range of hotels & resorts worldwide", icon: Building2, href: "#" },
-    { title: "Cruise Booking", desc: "Luxury cruises for memorable holidays", icon: Ship, href: "#" },
+    { title: "Flight Assistance", desc: "Best deals on domestic & international air tickets", icon: Plane, href: "#" },
+    { title: "Hotel Assistance", desc: "Wide range of hotels & resorts worldwide", icon: Building2, href: "#" },
+    { title: "Cruise Assistance", desc: "Luxury cruises for memorable holidays", icon: Ship, href: "#" },
     { title: "Visa Assistance", desc: "Tourist & Business visa assistance", icon: FileCheck, href: "#" },
     { title: "Travel Insurance", desc: "Comprehensive travel insurance", icon: Shield, href: "#" },
     { title: "Corporate Travel", desc: "Tailored solutions for businesses", icon: Briefcase, href: "#" },

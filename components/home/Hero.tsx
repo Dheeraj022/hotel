@@ -20,7 +20,7 @@ export default function Hero() {
       </div>
 
       <div className="container mx-auto px-4 relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center py-12">
-        
+
         {/* Left Content */}
         <div className="text-white space-y-6">
           <span className="inline-block px-3 py-1 bg-accent/20 text-accent font-semibold text-sm rounded-full tracking-wider">
@@ -30,30 +30,23 @@ export default function Hero() {
             TRAVEL MORE,<br />
             WORRY LESS
           </h1>
-          <p className="text-lg text-gray-200 max-w-lg">
-            Your trusted travel partner for unforgettable journeys across the globe.
-          </p>
-          
-          <ul className="space-y-3 font-medium text-gray-100">
-            <li className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-accent"></span> Wide Selection of Packages
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-accent"></span> 24/7 Travel Support
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-accent"></span> GST Registered Travel Agency
-            </li>
-          </ul>
+          <div className="space-y-3 text-lg text-gray-200 max-w-lg leading-relaxed">
+            <p>
+              Get information about hotels, villas, local tours, camping and more in India.
+            </p>
+            <p className="text-gray-100 font-medium">
+              We are here to assist you with your travel plans.
+            </p>
+          </div>
 
           <div className="flex flex-col sm:flex-row gap-4 pt-4">
-            <Link 
+            <Link
               href="#enquire"
               className="bg-accent text-white px-8 py-3.5 rounded-md font-semibold text-center hover:opacity-90 transition-opacity"
             >
               ENQUIRE NOW
             </Link>
-            <Link 
+            <Link
               href="https://wa.me/919876543210"
               className="bg-white/10 backdrop-blur-sm border border-white/30 text-white px-8 py-3.5 rounded-md font-semibold flex items-center justify-center gap-2 hover:bg-white/20 transition-colors"
             >

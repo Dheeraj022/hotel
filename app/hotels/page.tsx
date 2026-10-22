@@ -2,13 +2,12 @@ import InnerPageHero from "@/components/layout/InnerPageHero";
 import HotelCard from "@/components/hotels/HotelCard";
 import CTASection from "@/components/home/CTASection";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
-import Testimonials from "@/components/home/Testimonials";
 import { getHotels } from "@/lib/data/hotels";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Hotels & Resorts | Guest Assist",
-  description: "Book the best stays globally with Guest Assist.",
+  title: "Hotels & Resorts | Guest Assists",
+  description: "Book the best stays globally with Guest Assists.",
 };
 
 export default function HotelsListingPage() {
@@ -33,7 +32,6 @@ export default function HotelsListingPage() {
       </div>
 
       <div className="bg-white">
-        <Testimonials />
         <WhyChooseUs />
       </div>
       

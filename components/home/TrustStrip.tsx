@@ -1,13 +1,32 @@
-import { ShieldCheck, IndianRupee, EyeOff, Lock, Clock, ThumbsUp } from "lucide-react";
+import { Layers, Clock, FileText, ShieldCheck, HeartHandshake } from "lucide-react";
 
 export default function TrustStrip() {
   const items = [
-    { icon: ShieldCheck, text: "GST Registered Travel Agency" },
-    { icon: IndianRupee, text: "Transparent Pricing" },
-    { icon: EyeOff, text: "No Hidden Charges" },
-    { icon: Lock, text: "Secure & Reliable Assistance" },
-    { icon: Clock, text: "24/7 Customer Support" },
-    { icon: ThumbsUp, text: "100% Customer Satisfaction" },
+    {
+      icon: Layers,
+      title: "Wide Selection",
+      subtitle: "of Stays",
+    },
+    {
+      icon: Clock,
+      title: "Free Cancellation",
+      subtitle: "Information",
+    },
+    {
+      icon: FileText,
+      title: "Transparent",
+      subtitle: "Information",
+    },
+    {
+      icon: ShieldCheck,
+      title: "GST Registered",
+      subtitle: "Travel Agency",
+    },
+    {
+      icon: HeartHandshake,
+      title: "Travel Assistance",
+      subtitle: "for All Needs",
+    },
   ];
 
   return (
@@ -19,7 +38,10 @@ export default function TrustStrip() {
               <div className="w-8 h-8 rounded-full border border-white/30 flex items-center justify-center shrink-0">
                 <item.icon className="w-4 h-4 text-white" />
               </div>
-              <span className="max-w-[120px] leading-tight text-gray-200">{item.text}</span>
+              <div className="leading-tight">
+                <span className="font-semibold text-white block">{item.title}</span>
+                <span className="text-xs text-gray-300 block">{item.subtitle}</span>
+              </div>
             </div>
           ))}
         </div>

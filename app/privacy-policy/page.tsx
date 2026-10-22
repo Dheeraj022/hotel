@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Guest Assist",
+  title: "Privacy Policy | Guest Assists",
 };
 
 export default function PrivacyPolicyPage() {
@@ -12,7 +12,7 @@ export default function PrivacyPolicyPage() {
           <h1 className="text-3xl font-bold text-primary mb-8">Privacy Policy</h1>
           <div className="prose prose-blue max-w-none text-gray-600 space-y-6">
             <p className="lead text-lg font-medium text-gray-800">
-              Your privacy is important to us. It is Guest Assist Leisure Services Pvt Ltd's policy to respect your privacy regarding any information we may collect from you across our website.
+              Your privacy is important to us. It is Guest Assists Leisure Services Pvt Ltd's policy to respect your privacy regarding any information we may collect from you across our website.
             </p>
             
             <h2 className="text-xl font-bold text-primary mt-8 mb-4">1. Information We Collect</h2>

@@ -21,9 +21,9 @@ export default function CruiseSidebar({ cruise }: { cruise: Cruise }) {
     <div className="space-y-6">
       <CruiseEnquiryForm cruise={cruise} />
 
-      {/* Why Book With Us */}
+      {/* Why Choose Us */}
       <div className="bg-blue-50/50 rounded-lg p-6 border border-blue-100 relative overflow-hidden">
-        <h3 className="text-xl font-bold text-[#031b4e] mb-6">Why Book Your Cruise With Us?</h3>
+        <h3 className="text-xl font-bold text-[#031b4e] mb-6">Why Plan Your Cruise With Us?</h3>
         <ul className="space-y-4 relative z-10">
           {reasons.map((reason, idx) => (
             <li key={idx} className="flex items-center gap-3">

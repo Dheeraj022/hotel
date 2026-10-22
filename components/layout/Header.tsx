@@ -21,8 +21,13 @@ export default function Header() {
     <header className="bg-white border-b border-border-color sticky top-0 z-50">
       <div className="container mx-auto px-4 h-20 flex items-center justify-between">
         <Link href="/" className="flex flex-col">
-          <span className="text-2xl font-bold text-primary tracking-tight">GUEST ASSIST</span>
-          <span className="text-xs text-text-secondary uppercase tracking-wider"></span>
+          <span className="text-2xl font-bold text-primary tracking-tight leading-none">GUEST ASSISTS</span>
+          <span className="text-[10px] sm:text-xs text-text-secondary tracking-wider font-medium mt-1">
+            Brightspark Leisure Services Pvt Ltd
+          </span>
+          <span className="text-[9px] sm:text-[10px] text-text-secondary/80 font-normal tracking-tight mt-0.5 hidden sm:block">
+            Independent Travel Agency | Travel Information & Enquiry Assistance
+          </span>
         </Link>
 
         {/* Desktop Nav */}
