@@ -7,7 +7,7 @@ export default function Testimonials() {
     { text: "Best travel agency for customized packages and visa assistance.", author: "Rahul Verma", rating: 5 },
     { text: "Our Maldives honeymoon was magical, all thanks to Guest Assists!", author: "Sneha Desai", rating: 5 },
     { text: "The cruise assistance was seamless, and the onboard experience was spectacular.", author: "Vikram Singh", rating: 5 },
-    { text: "Great deals on luxury hotels. The team really understood our requirements.", author: "Ananya Gupta", rating: 4 },
+    { text: "Great assistance on luxury hotels. The team really understood our requirements.", author: "Ananya Gupta", rating: 4 },
     { text: "Visa processing was quick and hassle-free. Amazing customer service.", author: "Rohit Khanna", rating: 5 },
     { text: "A flawless family trip to Dubai. We didn't have to worry about a single thing.", author: "The Patel Family", rating: 5 },
     { text: "From flights to hotels, everything was top-notch. Truly a trusted partner.", author: "Neha Kapoor", rating: 5 },
