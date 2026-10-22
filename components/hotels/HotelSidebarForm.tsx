@@ -9,7 +9,7 @@ export default function HotelSidebarForm({ hotel }: { hotel: Hotel }) {
     <div id="enquiry" className="bg-white rounded-xl border border-gray-200 shadow-lg overflow-hidden">
       <div className="bg-[#0f284c] p-5 text-white">
         <h3 className="text-lg font-bold">Plan Your Stay at {hotel.name.replace(" Goa", "")}</h3>
-        <p className="text-xs text-gray-300 mt-1">Get the best rates and customized offers from our travel experts.</p>
+        <p className="text-xs text-gray-300 mt-1">Get the best assistance and customized offers from our travel experts.</p>
       </div>
       
       <div className="p-5">

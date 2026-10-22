@@ -13,7 +13,7 @@ export default function Testimonials() {
     { text: "From flights to hotels, everything was top-notch. Truly a trusted partner.", author: "Neha Kapoor", rating: 5 },
     { text: "Highly professional team with deep knowledge of international destinations.", author: "Kunal Joshi", rating: 5 },
     { text: "The European package exceeded our expectations. Excellent guides and stays.", author: "Pooja & Karan", rating: 5 },
-    { text: "They secured the best rates for our corporate retreat in Goa.", author: "Rajesh Nair", rating: 4 },
+    { text: "They secured the best assistance and offers for our corporate retreat in Goa.", author: "Rajesh Nair", rating: 4 },
     { text: "Smooth, effortless assistance for our family cruise on Royal Caribbean.", author: "Divya Chawla", rating: 5 },
     { text: "Their attention to detail and 24/7 support made our trip stress-free.", author: "Abhishek Jain", rating: 5 },
     { text: "We have found our permanent travel partner. Simply the best in the business!", author: "Sunita Rao", rating: 5 },
