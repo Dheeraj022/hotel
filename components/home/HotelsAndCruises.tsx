@@ -24,11 +24,14 @@ export default function HotelsAndCruises() {
         {/* Hotels Section */}
         <div>
           <div className="text-center mb-8">
-            <h2 className="text-2xl font-bold text-primary mb-6 inline-flex items-center gap-4">
+            <h2 className="text-2xl font-bold text-primary mb-2 inline-flex items-center gap-4">
               <span className="h-px w-8 bg-border-color hidden sm:block"></span>
               HOTELS & RESORTS
               <span className="h-px w-8 bg-border-color hidden sm:block"></span>
             </h2>
+            <p className="text-xs sm:text-sm text-text-secondary mb-4 font-medium">
+              Verified stay information and accommodation reservation assistance
+            </p>
             <div className="flex flex-wrap justify-center gap-4 text-xs font-semibold text-text-secondary">
               <span className="flex items-center gap-1 text-primary"><Star className="w-4 h-4"/> Luxury Hotels</span>
               <span className="flex items-center gap-1"><Bed className="w-4 h-4"/> Budget Hotels</span>
@@ -67,11 +70,14 @@ export default function HotelsAndCruises() {
         {/* Cruises Section */}
         <div>
           <div className="text-center mb-8">
-            <h2 className="text-2xl font-bold text-primary mb-6 inline-flex items-center gap-4">
+            <h2 className="text-2xl font-bold text-primary mb-2 inline-flex items-center gap-4">
               <span className="h-px w-8 bg-border-color hidden sm:block"></span>
               CRUISE EXPERIENCES
               <span className="h-px w-8 bg-border-color hidden sm:block"></span>
             </h2>
+            <p className="text-xs sm:text-sm text-text-secondary mb-4 font-medium">
+              Sailing information, itinerary insights, and cruise planning assistance
+            </p>
             <div className="flex flex-wrap justify-center gap-4 text-xs font-semibold text-text-secondary">
               <span className="flex items-center gap-1 text-primary"><Anchor className="w-4 h-4"/> Ocean Cruises</span>
               <span className="flex items-center gap-1"><Anchor className="w-4 h-4"/> River Cruises</span>

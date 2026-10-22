@@ -2,6 +2,7 @@ import InnerPageHero from "@/components/layout/InnerPageHero";
 import DestinationGrid from "@/components/destinations/DestinationGrid";
 import CTASection from "@/components/home/CTASection";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
+import OurRoleNotice from "@/components/common/OurRoleNotice";
 import { getDestinations } from "@/lib/data/destinations";
 import { Metadata } from "next";
 
@@ -24,6 +25,10 @@ export default function Page() {
       <div className="py-16 lg:py-24 container mx-auto px-4">
         <div className="max-w-7xl mx-auto">
           <DestinationGrid destinations={destinations} />
+
+          <div className="mt-16 max-w-3xl mx-auto">
+            <OurRoleNotice />
+          </div>
         </div>
       </div>
 

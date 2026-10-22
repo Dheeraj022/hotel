@@ -11,6 +11,9 @@ export default function PackagesSection() {
             HOLIDAY PACKAGES
             <span className="h-px w-12 bg-border-color hidden sm:block"></span>
           </h2>
+          <p className="mt-3 text-text-secondary max-w-2xl mx-auto text-sm sm:text-base font-medium">
+            Curated holiday information and personalized itinerary planning assistance
+          </p>
         </div>
 
         <PackageGrid />

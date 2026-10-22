@@ -1,6 +1,7 @@
 import InnerPageHero from "@/components/layout/InnerPageHero";
 import CruiseCard from "@/components/cruises/CruiseCard";
 import CTASection from "@/components/home/CTASection";
+import OurRoleNotice from "@/components/common/OurRoleNotice";
 import { getCruises } from "@/lib/data/cruises";
 
 export default function Page() {
@@ -31,6 +32,10 @@ export default function Page() {
             {cruises.map((cruise) => (
               <CruiseCard key={cruise.id} cruise={cruise} />
             ))}
+          </div>
+
+          <div className="mt-16 max-w-3xl mx-auto">
+            <OurRoleNotice />
           </div>
         </div>
       </section>

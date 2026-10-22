@@ -17,7 +17,7 @@ export default function CTASection() {
       <div className="container mx-auto px-4 relative z-10 text-white space-y-6">
         <h2 className="text-4xl md:text-5xl font-bold">LET US PLAN YOUR PERFECT HOLIDAY</h2>
         <p className="text-lg text-gray-200 max-w-2xl mx-auto">
-          Tell us your travel requirements and we will create the best experience for you.
+          Share your travel requirements to receive verified destination information and tailored booking assistance.
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center gap-4 pt-6">

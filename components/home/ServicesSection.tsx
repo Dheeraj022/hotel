@@ -23,6 +23,9 @@ export default function ServicesSection() {
             OUR SERVICES
             <span className="h-px w-12 bg-border-color hidden sm:block"></span>
           </h2>
+          <p className="mt-3 text-text-secondary max-w-2xl mx-auto text-sm sm:text-base font-medium">
+            Complete travel information, advisory, and dedicated booking assistance across all services
+          </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

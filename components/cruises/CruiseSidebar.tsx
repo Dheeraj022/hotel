@@ -9,7 +9,7 @@ export default function CruiseSidebar({ cruise }: { cruise: Cruise }) {
   const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   const reasons = [
-    { text: "Best Available Rates", icon: ThumbsUp },
+
     { text: "Expert Travel Consultants", icon: Users },
     { text: "Customized Itineraries", icon: Map },
     { text: "Hassle-Free Assistance", icon: ShieldCheck },
@@ -36,7 +36,7 @@ export default function CruiseSidebar({ cruise }: { cruise: Cruise }) {
         </ul>
         {/* Decorative element mimicking the ship drawing in screenshot */}
         <div className="absolute right-[-20px] bottom-[-20px] opacity-20 pointer-events-none">
-           <svg width="200" height="200" viewBox="0 0 24 24" fill="none" stroke="#031b4e" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1 .6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1M19.38 20A11.6 11.6 0 0 0 21 14l-9-4-9 4c0 2.9.94 5.34 2.81 7.76M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6M12 10v4M12 2v3"/></svg>
+          <svg width="200" height="200" viewBox="0 0 24 24" fill="none" stroke="#031b4e" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"><path d="M2 21c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1 .6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1M19.38 20A11.6 11.6 0 0 0 21 14l-9-4-9 4c0 2.9.94 5.34 2.81 7.76M19 13V7a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v6M12 10v4M12 2v3" /></svg>
         </div>
       </div>
 
@@ -53,7 +53,7 @@ export default function CruiseSidebar({ cruise }: { cruise: Cruise }) {
               <p className="text-xs text-gray-500 font-medium">Based on 500+ happy travellers</p>
             </div>
           </div>
-          
+
           <div className="bg-gray-50 p-4 rounded-lg relative">
             <div className="text-4xl text-gray-200 absolute top-2 left-2 font-serif">"</div>
             <p className="text-sm text-gray-600 relative z-10 italic pl-4">
@@ -73,7 +73,7 @@ export default function CruiseSidebar({ cruise }: { cruise: Cruise }) {
           <div className="space-y-3">
             {cruise.faqs.map((faq, idx) => (
               <div key={idx} className="border border-gray-100 rounded-lg overflow-hidden">
-                <button 
+                <button
                   onClick={() => setOpenFaq(openFaq === idx ? null : idx)}
                   className="w-full text-left px-4 py-3 bg-gray-50 hover:bg-gray-100 flex justify-between items-center transition-colors"
                 >

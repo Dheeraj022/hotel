@@ -2,6 +2,7 @@ import InnerPageHero from "@/components/layout/InnerPageHero";
 import HotelCard from "@/components/hotels/HotelCard";
 import CTASection from "@/components/home/CTASection";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
+import OurRoleNotice from "@/components/common/OurRoleNotice";
 import { getHotels } from "@/lib/data/hotels";
 import { Metadata } from "next";
 
@@ -27,6 +28,10 @@ export default function HotelsListingPage() {
             {hotels.map(hotel => (
               <HotelCard key={hotel.id} hotel={hotel} />
             ))}
+          </div>
+
+          <div className="mt-16 max-w-3xl mx-auto">
+            <OurRoleNotice />
           </div>
         </div>
       </div>

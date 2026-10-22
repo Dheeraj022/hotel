@@ -12,6 +12,7 @@ import HotelReviews from "@/components/hotels/HotelReviews";
 import HotelLocation from "@/components/hotels/HotelLocation";
 import HotelFAQs from "@/components/hotels/HotelFAQs";
 import SimilarHotels from "@/components/hotels/SimilarHotels";
+import OurRoleNotice from "@/components/common/OurRoleNotice";
 import { Metadata } from "next";
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
@@ -55,8 +56,9 @@ export default async function HotelPage({ params }: { params: Promise<{ slug: st
           </div>
 
           {/* Right Column: Sidebar */}
-          <div className="lg:col-span-4 relative">
+          <div className="lg:col-span-4 relative space-y-6">
             <HotelSidebarForm hotel={hotel} />
+            <OurRoleNotice />
             <HotelTrustBadges />
           </div>
 

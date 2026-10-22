@@ -31,6 +31,9 @@ export default function DestinationsSection() {
             POPULAR DESTINATIONS
             <span className="h-px w-12 bg-border-color hidden sm:block"></span>
           </h2>
+          <p className="mt-3 text-text-secondary max-w-2xl mx-auto text-sm sm:text-base font-medium">
+            Explore destination information, sightseeing guides, and local travel assistance
+          </p>
           <div className="flex justify-center gap-4 mt-6">
             <button 
               onClick={() => setActiveTab("all")}

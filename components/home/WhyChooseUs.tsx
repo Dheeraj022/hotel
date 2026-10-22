@@ -20,7 +20,7 @@ export default function WhyChooseUs() {
             <span className="h-1 w-12 bg-accent rounded-full hidden sm:block"></span>
           </h2>
           <p className="mt-4 text-text-secondary max-w-2xl mx-auto font-medium">
-            We are dedicated to providing you with the most unforgettable travel experiences, backed by our commitment to quality, safety, and personalized service.
+            Dedicated to providing transparent travel information, honest guidance, and dependable enquiry assistance for every journey.
           </p>
         </div>
 

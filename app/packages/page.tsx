@@ -2,6 +2,7 @@ import InnerPageHero from "@/components/layout/InnerPageHero";
 import PackageGrid from "@/components/packages/PackageGrid";
 import CTASection from "@/components/home/CTASection";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
+import OurRoleNotice from "@/components/common/OurRoleNotice";
 
 export default function Page() {
   return (
@@ -26,6 +27,10 @@ export default function Page() {
         
         <div className="max-w-6xl mx-auto">
           <PackageGrid />
+
+          <div className="mt-16 max-w-3xl mx-auto">
+            <OurRoleNotice />
+          </div>
         </div>
       </div>
 

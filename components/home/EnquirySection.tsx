@@ -12,7 +12,7 @@ export default function EnquirySection() {
             <div className="relative z-10">
               <h2 className="text-3xl lg:text-4xl font-bold mb-4">READY TO PLAN YOUR NEXT JOURNEY?</h2>
               <p className="text-lg text-gray-200">
-                Fill out the form and our travel experts will get in touch with you.
+                Submit your travel enquiry to receive detailed information, transparent advice, and personalized assistance.
               </p>
             </div>
             <div className="absolute inset-0 z-0 opacity-40">

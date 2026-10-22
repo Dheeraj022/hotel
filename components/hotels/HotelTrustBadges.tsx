@@ -2,7 +2,7 @@ import { ShieldCheck, CalendarCheck, Map, Clock, Star } from "lucide-react";
 
 export default function HotelTrustBadges() {
   const badges = [
-    { icon: ShieldCheck, text: "Best Available Rates" },
+
     { icon: CalendarCheck, text: "Personalized Travel Plans" },
     { icon: Map, text: "Expert Travel Consultants" },
     { icon: Clock, text: "24x7 Customer Support" },
