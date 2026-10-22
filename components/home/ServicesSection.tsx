@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function ServicesSection() {
   const services = [
     { title: "Holiday Packages", desc: "Domestic & International tour options", icon: Plane, href: "#" },
-    { title: "Flight Assistance", desc: "Best deals on domestic & international air tickets", icon: Plane, href: "#" },
+    { title: "Flight Assistance", desc: "Best Assistance on domestic & international air tickets", icon: Plane, href: "#" },
     { title: "Hotel Assistance", desc: "Wide range of hotels & resorts worldwide", icon: Building2, href: "#" },
     { title: "Cruise Assistance", desc: "Luxury cruises for memorable holidays", icon: Ship, href: "#" },
     { title: "Visa Assistance", desc: "Tourist & Business visa assistance", icon: FileCheck, href: "#" },
@@ -24,7 +24,7 @@ export default function ServicesSection() {
             <span className="h-px w-12 bg-border-color hidden sm:block"></span>
           </h2>
         </div>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((svc, i) => (
             <Link href={svc.href} key={i} className="bg-white p-6 rounded-xl border border-border-color hover:shadow-lg transition-shadow flex items-start gap-4 group">

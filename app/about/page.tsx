@@ -1,6 +1,5 @@
 import InnerPageHero from "@/components/layout/InnerPageHero";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
-import Partners from "@/components/home/Partners";
 import CTASection from "@/components/home/CTASection";
 import { CheckCircle2 } from "lucide-react";
 import Image from "next/image";
@@ -25,10 +24,10 @@ export default function Page() {
             </h2>
             <div className="space-y-4 text-text-secondary leading-relaxed">
               <p>
-                Guest Assists Leisure Services Private Limited is a premier registered travel agency and tour operator based in New Delhi. Established with a vision to redefine travel, we specialize in curating seamless and unforgettable experiences for our clients.
+                BrightSpark Leisure Services Private Limited is a registered travel agency and tour operator based in New Delhi, India, dedicated to making every journey smooth, comfortable, and memorable. We specialize in providing customized travel solutions designed to meet the unique needs, preferences, and budgets of individuals, families, groups, and corporate clients.
               </p>
               <p>
-                From customized holiday packages and flight assistance to luxury hotel assistance and corporate travel solutions, we are committed to delivering unmatched service and exceptional value. Whether you are planning a romantic honeymoon, a family vacation, or a complex corporate retreat, our dedicated team of travel experts is here to assist you every step of the way.
+                Our wide range of travel services includes personalized domestic and international holiday packages, flight booking assistance, hotel reservations, visa assistance, travel insurance, and comprehensive corporate travel management solutions. Whether you are planning a relaxing family vacation, a romantic honeymoon, an adventurous getaway, a group tour, or a business trip, our team is committed to helping you plan every detail with care and attention.
               </p>
               <p>
                 With 24/7 customer support, transparent pricing, and a passion for exploration, we ensure that every journey you take with us is smooth, safe, and memorable.
@@ -75,9 +74,6 @@ export default function Page() {
 
       {/* Why Choose Us */}
       <WhyChooseUs />
-
-      {/* Partners */}
-      <Partners />
 
       {/* CTA */}
       <CTASection />

@@ -8,7 +8,6 @@ import PackagesSection from "@/components/home/PackagesSection";
 import HotelsAndCruises from "@/components/home/HotelsAndCruises";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import EnquirySection from "@/components/home/EnquirySection";
-import Partners from "@/components/home/Partners";
 import CTASection from "@/components/home/CTASection";
 
 export default function Home() {
@@ -30,7 +29,6 @@ export default function Home() {
       </section>
 
       <EnquirySection />
-      <Partners />
       <CTASection />
     </>
   );

@@ -10,9 +10,14 @@ export default function AboutSection() {
           <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-6 leading-tight">
             ABOUT GUEST ASSISTS
           </h2>
-          <p className="text-text-secondary leading-relaxed mb-8">
-            Guest Assists Leisure Services Private Limited is a registered travel agency and tour operator based in New Delhi. We provide customized holiday packages, flight assistance, hotel assistance, visa assistance, travel insurance and corporate travel solutions with unmatched service and best value.
-          </p>
+          <div className="space-y-4 text-text-secondary leading-relaxed mb-8">
+            <p>
+              BrightSpark Leisure Services Private Limited is a registered travel agency and tour operator based in New Delhi, India, dedicated to making every journey smooth, comfortable, and memorable. We specialize in providing customized travel solutions designed to meet the unique needs, preferences, and budgets of individuals, families, groups, and corporate clients.
+            </p>
+            <p>
+              Our wide range of travel services includes personalized domestic and international holiday packages, flight booking assistance, hotel reservations, visa assistance, travel insurance, and comprehensive corporate travel management solutions. Whether you are planning a relaxing family vacation, a romantic honeymoon, an adventurous getaway, a group tour, or a business trip, our team is committed to helping you plan every detail with care and attention.
+            </p>
+          </div>
           <Link href="/about" className="inline-block border-2 border-primary text-primary px-6 py-2.5 rounded-md font-semibold hover:bg-primary hover:text-white transition-colors">
             KNOW MORE ABOUT US
           </Link>
