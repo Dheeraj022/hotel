@@ -2,7 +2,7 @@
 
 import { Cruise } from "@/lib/data/cruises";
 import CruiseEnquiryForm from "./CruiseEnquiryForm";
-import { ThumbsUp, Users, Map, ShieldCheck, Clock, Shield, Star, ChevronDown, ChevronUp } from "lucide-react";
+import { ThumbsUp, Users, Map, ShieldCheck, Clock, Shield, ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
 
 export default function CruiseSidebar({ cruise }: { cruise: Cruise }) {
@@ -44,15 +44,7 @@ export default function CruiseSidebar({ cruise }: { cruise: Cruise }) {
       {cruise.reviews && cruise.reviews.length > 0 && (
         <div id="reviews" className="scroll-mt-[120px] bg-white rounded-lg p-6 border border-gray-100 shadow-sm">
           <h3 className="text-xl font-bold text-[#031b4e] mb-6">Guest Reviews</h3>
-          <div className="flex items-center gap-4 mb-6">
-            <div className="bg-green-100 text-green-700 text-2xl font-black px-4 py-2 rounded-lg">4.8<span className="text-sm">/5</span></div>
-            <div>
-              <div className="flex text-yellow-400 mb-1">
-                {[1, 2, 3, 4, 5].map(i => <Star key={i} className="w-4 h-4 fill-current" />)}
-              </div>
-              <p className="text-xs text-gray-500 font-medium">Based on 500+ happy travellers</p>
-            </div>
-          </div>
+
 
           <div className="bg-gray-50 p-4 rounded-lg relative">
             <div className="text-4xl text-gray-200 absolute top-2 left-2 font-serif">"</div>

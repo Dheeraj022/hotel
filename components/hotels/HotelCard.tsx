@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Hotel } from "@/lib/data/hotels";
-import { Star, MapPin, Waves, Flower2, Dumbbell, Utensils, Umbrella, Baby, Wifi, Bell } from "lucide-react";
+import { MapPin, Waves, Flower2, Dumbbell, Utensils, Umbrella, Baby, Wifi, Bell } from "lucide-react";
 
 export default function HotelCard({ hotel }: { hotel: Hotel }) {
   const iconMap: Record<string, any> = {
@@ -14,9 +14,6 @@ export default function HotelCard({ hotel }: { hotel: Hotel }) {
     <Link href={`/hotels/${hotel.slug}`} className="group bg-white rounded-xl overflow-hidden shadow-sm border border-border-color block hover:shadow-md transition-shadow h-full flex flex-col">
       <div className="relative h-48 overflow-hidden">
         <Image src={hotel.heroImage} alt={hotel.name} fill className="object-cover group-hover:scale-105 transition-transform duration-500" />
-        <div className="absolute top-3 left-3 bg-white/90 backdrop-blur-sm px-2 py-1 rounded text-xs font-bold text-primary flex items-center gap-1">
-          {hotel.rating} <Star className="w-3 h-3 fill-yellow-400 text-yellow-400" />
-        </div>
       </div>
       <div className="p-4 flex-1 flex flex-col">
         <h3 className="font-bold text-primary text-base mb-1 group-hover:text-accent transition-colors">{hotel.name}</h3>
