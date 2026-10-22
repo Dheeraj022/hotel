@@ -34,11 +34,7 @@ export default function CruiseCard({ cruise }: { cruise: Cruise }) {
             {cruise.shortDescription}
           </p>
 
-          <div className="pt-4 border-t border-border-color flex items-center justify-between mt-auto">
-            <div className="text-sm">
-              <span className="block text-xs text-text-secondary mb-0.5">Starting from</span>
-              <span className="font-bold text-primary">{cruise.startingPrice}</span>
-            </div>
+          <div className="pt-4 border-t border-border-color flex items-center justify-end mt-auto">
             <div className="text-accent text-sm font-semibold flex items-center gap-1 group-hover:gap-2 transition-all">
               VIEW DETAILS
               <span aria-hidden="true">&rarr;</span>
