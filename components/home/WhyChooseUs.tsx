@@ -1,10 +1,10 @@
-import { UserCheck, Settings, IndianRupee, Lock, Clock, PackageCheck } from "lucide-react";
+import { UserCheck, Settings, FileText, Lock, Clock, PackageCheck } from "lucide-react";
 
 export default function WhyChooseUs() {
   const reasons = [
     { title: "Experienced", subtitle: "Travel Consultants", icon: UserCheck, desc: "Expert guidance for your perfect trip." },
     { title: "Personalized", subtitle: "Travel Plans", icon: Settings, desc: "Tailor-made itineraries just for you." },
-    { title: "Competitive", subtitle: "Pricing", icon: IndianRupee, desc: "Best value without compromising quality." },
+    { title: "Transparent", subtitle: "Information", icon: FileText, desc: "Clear, honest travel details with no hidden terms." },
     { title: "Safe & Reliable", subtitle: "Assistance", icon: Lock, desc: "Your safety and comfort are our priority." },
     { title: "24x7 Customer", subtitle: "Support", icon: Clock, desc: "Always here for you, anytime, anywhere." },
     { title: "One Stop", subtitle: "Travel Solutions", icon: PackageCheck, desc: "Flights, hotels, and tours all in one place." },
